@@ -1,0 +1,19 @@
+html <!DOCTYPE html> <html lang="ja">
+  <head> <meta charset="UTF-8" />
+    <title>競輪予想ツール</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>競輪予想文章作成ツール</h1>
+    <form id="predictionForm">
+      <label>ラインAの動き:</label>
+      <select id="lineA">
+        <option value="先行">先行</option> <option value="追込">追込</option> <option value="捲り">捲り
+        </option>
+      </select> <!-- 他も同様に選択肢追加 --> <button type="button" onclick="generatePrediction()">予想文章作成</button>
+    </form> <h2>予想文章</h2> <div id="result"></div>
+    <script src="script.js">
+      
+    </script>
+  </body>
+</html>
