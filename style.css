@@ -1,1 +1,1 @@
-js function generatePrediction() { const lineA = document.getElementById('lineA').value; // 他の値も取得 const prediction = `レース展開は、ラインAは${lineA}です。`; document.getElementById('result').innerText = prediction; }
+
